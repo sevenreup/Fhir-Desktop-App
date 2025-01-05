@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3237d43-2c58-4473-81bb-2ff6a2b9b529" name="Changes" comment="between works with dates">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/kotlin/com/sevenreup/fhir/core/compiler/imports/ImportTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/kotlin/com/sevenreup/fhir/core/compiler/imports/ImportTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,51 +44,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
                 <item name="cli" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
+                <item name="cli" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
+                <item name="cli" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="help" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FHIRCompiler" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -120,34 +90,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/chris/projects/projects/dtree/Fhir-Helpers-Extension/Fhir_Kotlin/core&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to process.pid 26396.executor": "ProcessAttachDebug",
+    "Gradle.Build Fhir_Kotlin.executor": "Run",
+    "Kotlin.Server.executor": "Run",
+    "Kotlin.Upload Resouces (Dev).executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "U:/projects/organisations/dtree/Fhir-Helpers-Extension/Fhir_Kotlin",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\fhir\src\main\java\com\google\android\fhir\sync\upload\patch" />
+      <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\fhir\src\main\java\com\google\android\fhir" />
       <recent name="C:\Users\chris\projects\projects\dtree\Fhir-Helpers-Extension\Fhir_Kotlin\core" />
       <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\core\src\main\kotlin\com\sevenreup\fhir\core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\fhir\src\main\java\com\google\android\fhir" />
       <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\core\src\main\kotlin\com\sevenreup\fhir\core\tests\reports" />
       <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\core\src\main\kotlin\com\sevenreup\fhir\core\structure_maps\imports" />
       <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\server\src\main\java\com\sevenreup\fhir\server" />
       <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin" />
-      <recent name="D:\Work\dev\fhir-lsp\Fhir_Kotlin\src" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.sevenreup.fhir.core.uploader.localChanges" />
       <recent name="com.sevenreup.fhir.core.tests.operations" />
       <recent name="imports" />
       <recent name="com.sevenreup.fhir.core.tests.inputs" />
@@ -157,7 +136,7 @@
       <recent name="com.sevenreup.fhir.core.tests.operations" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Cli">
+  <component name="RunManager" selected="Kotlin.Upload Resouces (Dev)">
     <configuration name="AliasesTests.replaceAliasesTestRelative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,7 +158,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="Fhir_Kotlin:cli [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -201,7 +180,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="Fhir_Kotlin:core [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -223,7 +202,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="Fhir_Kotlin:core [dependencyInsight]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -245,7 +224,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="Fhir_Kotlin:server [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -267,15 +246,35 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Cli" type="JetRunConfigurationType">
+    <configuration name="Fix CarePlan" type="JetRunConfigurationType">
       <option name="MAIN_CLASS_NAME" value="com.sevenreup.fhir.cli.MainKt" />
       <module name="FHIRCompiler.cli.main" />
-      <option name="PROGRAM_PARAMETERS" value="upload &quot;D:\Work\dev\fhir-resources&quot; -r &quot;./&quot; -s &quot;https://gateway-core.d-tree.org/fhir&quot; -k &quot;eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiRGY5ZHpnSXA4MmRYeUhfb1Z1eGgxWi1WZ0haOXloZm81Z0QxQ3pjaE9JIn0.eyJleHAiOjE3MTYwMzE3NTIsImlhdCI6MTcxNjAzMTQ1MiwianRpIjoiZGZiYWI2Y2UtMmZkZC00ZmMwLTg1NmMtZDhlYWEwZmQ5ODlhIiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay5kLXRyZWUub3JnL2F1dGgvcmVhbG1zL2NvcmUtbWFsYXdpLXByb2R1Y3Rpb24iLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiZDM4NjBjNjktMjFjOC00MmQ2LWJiNjEtYTk4ZDUzMGJmNmVjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZmhpci1jb3JlLWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiJiYjZmMmY1MS00YmYzLTRiOTgtOTRjMy04M2U1OWE4ODdmNTMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vd2ViLmZoaXIuZC10cmVlLm9yZyIsImh0dHBzOi8vZmhpci5kLXRyZWUub3JnIiwiaHR0cDovL2ZoaXIuZC10cmVlLm9yZyIsImh0dHA6Ly93ZWIuZmhpci5kLXRyZWUub3JnIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJQT1NUX0NBUkVURUFNIiwiR0VUX1BBVElFTlQiLCJQVVRfT0JTRVJWQVRJT04iLCJQT1NUX1JFTEFURURQRVJTT04iLCJHRVRfQVBQT0lOVE1FTlQiLCJFRElUX0tFWUNMT0FLX1VTRVJTIiwiUFVUX0NBUkVURUFNIiwiR0VUX0NBUkVQTEFOIiwiUEFUQ0hfVEFTSyIsIlBBVENIX09SR0FOSVpBVElPTiIsIlBVVF9CSU5BUlkiLCJQT1NUX0JVTkRMRSIsIlBPU1RfQ09NUE9TSVRJT04iLCJ1bWFfYXV0aG9yaXphdGlvbiIsIlBPU1RfUVVFU1RJT05OQUlSRSIsIlBPU1RfUVVFU1RJT05OQUlSRVJFU1BPTlNFIiwiUFVUX0JVTkRMRSIsIlBPU1RfRU5DT1VOVEVSIiwiUFVUX0FQUE9JTlRNRU5UIiwiUFVUX1JFTEFURURQRVJTT04iLCJHRVRfT0JTRVJWQVRJT04iLCJQT1NUX0xPQ0FUSU9OIiwiR0VUX1BSQUNUSVRJT05FUlJPTEUiLCJQQVRDSF9DQVJFVEVBTSIsIkdFVF9MSVNUIiwiZGVmYXVsdC1yb2xlcy1jb3JlLW1hbGF3aS1wcm9kdWN0aW9uIiwiR0VUX1JFTEFURURQRVJTT04iLCJHRVRfUVVFU1RJT05OQUlSRVJFU1BPTlNFIiwiUFVUX1NUUlVDVFVSRU1BUCIsIlBVVF9PUkdBTklaQVRJT04iLCJQVVRfQ0FSRVBMQU4iLCJHRVRfQlVORExFIiwiR0VUX0VOQ09VTlRFUiIsIkdFVF9QUkFDVElUSU9ORVItREVUQUlMUyIsIkdFVF9MT0NBVElPTiIsIkdFVF9CSU5BUlkiLCJQVVRfQ09NUE9TSVRJT04iLCJQT1NUX0dST1VQIiwiUE9TVF9QUkFDVElUSU9ORVJST0xFIiwiUE9TVF9QQVRJRU5UIiwiUFVUX1BSQUNUSVRJT05FUlJPTEUiLCJQVVRfQ09ORElUSU9OIiwiUE9TVF9PQlNFUlZBVElPTiIsIlBPU1RfQ0FSRVBMQU4iLCJHRVRfVEFTSyIsIlZJRVdfS0VZQ0xPQUtfVVNFUlMiLCJQTEFOU19GT1JfVVNFUiIsIm9mZmxpbmVfYWNjZXNzIiwiR0VUX1BSQUNUSVRJT05FUiIsIlBPU1RfUFJBQ1RJVElPTkVSIiwiUFVUX1BSQUNUSVRJT05FUiIsIlBBVENIX0JJTkFSWSIsIlBVVF9RVUVTVElPTk5BSVJFIiwiUFVUX1RBU0siLCJHRVRfUFJBQ1RJVElPTkVSREVUQUlMUyIsIkdFVF9DT01QT1NJVElPTiIsIkdFVF9RVUVTVElPTk5BSVJFIiwiUFVUX0xPQ0FUSU9OIiwiUE9TVF9TVFJVQ1RVUkVNQVAiLCJQT1NUX0FQUE9JTlRNRU5UIiwiUE9TVF9MSVNUIiwiUFVUX1BBVElFTlQiLCJQVVRfRU5DT1VOVEVSIiwiUFVUX0xJU1QiLCJQT1NUX0JJTkFSWSIsIkdFVF9HUk9VUCIsIlBPU1RfT1JHQU5JWkFUSU9OIiwiR0VUX0NPTkRJVElPTiIsIkdFVF9TVFJVQ1RVUkVNQVAiLCJQQVRDSF9DQVJFUExBTiIsIlBPU1RfVEFTSyIsIkdFVF9DQVJFVEVBTSIsIlBVVF9RVUVTVElPTk5BSVJFUkVTUE9OU0UiLCJHRVRfT1JHQU5JWkFUSU9OIiwiUE9TVF9DT05ESVRJT04iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyIsInZpZXctdXNlcnMiLCJxdWVyeS1ncm91cHMiLCJxdWVyeS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImJiNmYyZjUxLTRiZjMtNGI5OC05NGMzLTgzZTU5YTg4N2Y1MyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwib3JnYW5pemF0aW9uIjoiMTAxNzMiLCJxdWVzdGlvbm5haXJlX3B1Ymxpc2hlciI6Im1jb3JlIiwiZmhpcl9jb3JlX2FwcF9pZCI6InRpbmdhdGhlLXNhYS1wcm9kIiwiZ3JvdXBzIjpbIlBPU1RfQ0FSRVRFQU0iLCJHRVRfUEFUSUVOVCIsIlBVVF9PQlNFUlZBVElPTiIsIlBPU1RfUkVMQVRFRFBFUlNPTiIsIkdFVF9BUFBPSU5UTUVOVCIsIkVESVRfS0VZQ0xPQUtfVVNFUlMiLCJQVVRfQ0FSRVRFQU0iLCJHRVRfQ0FSRVBMQU4iLCJQQVRDSF9UQVNLIiwiUEFUQ0hfT1JHQU5JWkFUSU9OIiwiUFVUX0JJTkFSWSIsIlBPU1RfQlVORExFIiwiUE9TVF9DT01QT1NJVElPTiIsInVtYV9hdXRob3JpemF0aW9uIiwiUE9TVF9RVUVTVElPTk5BSVJFIiwiUE9TVF9RVUVTVElPTk5BSVJFUkVTUE9OU0UiLCJQVVRfQlVORExFIiwiUE9TVF9FTkNPVU5URVIiLCJQVVRfQVBQT0lOVE1FTlQiLCJQVVRfUkVMQVRFRFBFUlNPTiIsIkdFVF9PQlNFUlZBVElPTiIsIlBPU1RfTE9DQVRJT04iLCJHRVRfUFJBQ1RJVElPTkVSUk9MRSIsIlBBVENIX0NBUkVURUFNIiwiR0VUX0xJU1QiLCJkZWZhdWx0LXJvbGVzLWNvcmUtbWFsYXdpLXByb2R1Y3Rpb24iLCJHRVRfUkVMQVRFRFBFUlNPTiIsIkdFVF9RVUVTVElPTk5BSVJFUkVTUE9OU0UiLCJQVVRfU1RSVUNUVVJFTUFQIiwiUFVUX09SR0FOSVpBVElPTiIsIlBVVF9DQVJFUExBTiIsIkdFVF9CVU5ETEUiLCJHRVRfRU5DT1VOVEVSIiwiR0VUX1BSQUNUSVRJT05FUi1ERVRBSUxTIiwiR0VUX0xPQ0FUSU9OIiwiR0VUX0JJTkFSWSIsIlBVVF9DT01QT1NJVElPTiIsIlBPU1RfR1JPVVAiLCJQT1NUX1BSQUNUSVRJT05FUlJPTEUiLCJQT1NUX1BBVElFTlQiLCJQVVRfUFJBQ1RJVElPTkVSUk9MRSIsIlBVVF9DT05ESVRJT04iLCJQT1NUX09CU0VSVkFUSU9OIiwiUE9TVF9DQVJFUExBTiIsIkdFVF9UQVNLIiwiVklFV19LRVlDTE9BS19VU0VSUyIsIlBMQU5TX0ZPUl9VU0VSIiwib2ZmbGluZV9hY2Nlc3MiLCJHRVRfUFJBQ1RJVElPTkVSIiwiUE9TVF9QUkFDVElUSU9ORVIiLCJQVVRfUFJBQ1RJVElPTkVSIiwiUEFUQ0hfQklOQVJZIiwiUFVUX1FVRVNUSU9OTkFJUkUiLCJQVVRfVEFTSyIsIkdFVF9QUkFDVElUSU9ORVJERVRBSUxTIiwiR0VUX0NPTVBPU0lUSU9OIiwiR0VUX1FVRVNUSU9OTkFJUkUiLCJQVVRfTE9DQVRJT04iLCJQT1NUX1NUUlVDVFVSRU1BUCIsIlBPU1RfQVBQT0lOVE1FTlQiLCJQT1NUX0xJU1QiLCJQVVRfUEFUSUVOVCIsIlBVVF9FTkNPVU5URVIiLCJQVVRfTElTVCIsIlBPU1RfQklOQVJZIiwiR0VUX0dST1VQIiwiUE9TVF9PUkdBTklaQVRJT04iLCJHRVRfQ09ORElUSU9OIiwiR0VUX1NUUlVDVFVSRU1BUCIsIlBBVENIX0NBUkVQTEFOIiwiUE9TVF9UQVNLIiwiR0VUX0NBUkVURUFNIiwiUFVUX1FVRVNUSU9OTkFJUkVSRVNQT05TRSIsIkdFVF9PUkdBTklaQVRJT04iLCJQT1NUX0NPTkRJVElPTiJdLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkZW1vIn0.U7lwcA2bjjgbvwFCgnFFUg-sZSfY_rQxN3-SQscRPFHQ0qw6E0ci50pcxrRe92KzJTrcsiR6biXX_zPGQMy7BnsOyXFQo4mMo4d3vLh9XzrlM_nErgfcfE_EY3QdLxx9oWvdqF_vfICA9ssirXWJCpmgRezX4zjyTReCgh0QComO6VjgLntm875DVqe_7ADBP2wBr-NYl43qzarRKNcsKM38IAM8RHaCyd1zdY9zbUA_eeuz_JbNX9ujo6Z4yvc0j3AGE8hAORjYEuENMNPgMXbkDwAGlg3c3DEzf2AW_2ozXHl2IQ8PFOKe4gk-ni0WqPgDxvv7fipGeuipgfTZ5A&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="fixCarePlan -r &quot;C:\Users\chris\projects\dtree\mwcore-fhir-resources&quot; -b 1" />
       <shortenClasspath name="NONE" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../fhir-resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../dtree/mwcore-fhir-resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalChanges Uploader" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="com.sevenreup.fhir.cli.MainKt" />
+      <module name="FHIRCompiler.cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="uploadChanges &quot;D:\Work\dev\fhir-resources\scratch\local\changes.json&quot; -r &quot;C:\Users\chris\projects\dtree\mwcore-fhir-resources&quot; -b 1" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../dtree/mwcore-fhir-resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Location Builder" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="com.sevenreup.fhir.cli.MainKt" />
+      <module name="FHIRCompiler.cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="locationUploader -r &quot;./&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../dtree/mwcore-fhir-resources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,21 +287,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Upload Configs (Prod)" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="com.sevenreup.fhir.cli.MainKt" />
+      <module name="FHIRCompiler.cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="configUploader &quot;production&quot; -r &quot;./&quot; -s &quot;https://fhir.d-tree.org/fhir&quot; -k &quot;eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiRGY5ZHpnSXA4MmRYeUhfb1Z1eGgxWi1WZ0haOXloZm81Z0QxQ3pjaE9JIn0.eyJleHAiOjE3MTgwMDgxMzksImlhdCI6MTcxODAwNzgzOSwianRpIjoiNjg4ZjQzMjQtYzNhMC00ZTJlLTg5MDUtOGJjMDUyMGVmNWQwIiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay5kLXRyZWUub3JnL2F1dGgvcmVhbG1zL2NvcmUtbWFsYXdpLXByb2R1Y3Rpb24iLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiZDM4NjBjNjktMjFjOC00MmQ2LWJiNjEtYTk4ZDUzMGJmNmVjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZmhpci1jb3JlLWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiJlYzc4Y2I2OS1mMzkwLTRjZmEtODY5My1lZDVjYWY1MjRiOGUiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vd2ViLmZoaXIuZC10cmVlLm9yZyIsImh0dHBzOi8vZmhpci5kLXRyZWUub3JnIiwiaHR0cDovL2ZoaXIuZC10cmVlLm9yZyIsImh0dHA6Ly93ZWIuZmhpci5kLXRyZWUub3JnIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJQT1NUX0NBUkVURUFNIiwiR0VUX1BBVElFTlQiLCJQVVRfT0JTRVJWQVRJT04iLCJQT1NUX1JFTEFURURQRVJTT04iLCJHRVRfQVBQT0lOVE1FTlQiLCJFRElUX0tFWUNMT0FLX1VTRVJTIiwiUFVUX0NBUkVURUFNIiwiR0VUX0NBUkVQTEFOIiwiUEFUQ0hfVEFTSyIsIlBBVENIX09SR0FOSVpBVElPTiIsIlBVVF9CSU5BUlkiLCJQT1NUX0JVTkRMRSIsIlBPU1RfQ09NUE9TSVRJT04iLCJ1bWFfYXV0aG9yaXphdGlvbiIsIlBPU1RfUVVFU1RJT05OQUlSRSIsIlBPU1RfUVVFU1RJT05OQUlSRVJFU1BPTlNFIiwiUFVUX0JVTkRMRSIsIlBPU1RfRU5DT1VOVEVSIiwiUFVUX0FQUE9JTlRNRU5UIiwiUFVUX1JFTEFURURQRVJTT04iLCJHRVRfT0JTRVJWQVRJT04iLCJQT1NUX0xPQ0FUSU9OIiwiR0VUX1BSQUNUSVRJT05FUlJPTEUiLCJQQVRDSF9DQVJFVEVBTSIsIkdFVF9MSVNUIiwiZGVmYXVsdC1yb2xlcy1jb3JlLW1hbGF3aS1wcm9kdWN0aW9uIiwiR0VUX1JFTEFURURQRVJTT04iLCJHRVRfUVVFU1RJT05OQUlSRVJFU1BPTlNFIiwiUFVUX1NUUlVDVFVSRU1BUCIsIlBVVF9PUkdBTklaQVRJT04iLCJQVVRfQ0FSRVBMQU4iLCJHRVRfQlVORExFIiwiR0VUX0VOQ09VTlRFUiIsIkdFVF9QUkFDVElUSU9ORVItREVUQUlMUyIsIkdFVF9MT0NBVElPTiIsIkdFVF9CSU5BUlkiLCJQVVRfQ09NUE9TSVRJT04iLCJQT1NUX0dST1VQIiwiUE9TVF9QUkFDVElUSU9ORVJST0xFIiwiUE9TVF9QQVRJRU5UIiwiUFVUX1BSQUNUSVRJT05FUlJPTEUiLCJQVVRfQ09ORElUSU9OIiwiUE9TVF9PQlNFUlZBVElPTiIsIlBPU1RfQ0FSRVBMQU4iLCJHRVRfVEFTSyIsIlZJRVdfS0VZQ0xPQUtfVVNFUlMiLCJQTEFOU19GT1JfVVNFUiIsIm9mZmxpbmVfYWNjZXNzIiwiR0VUX1BSQUNUSVRJT05FUiIsIlBPU1RfUFJBQ1RJVElPTkVSIiwiUFVUX1BSQUNUSVRJT05FUiIsIlBBVENIX0JJTkFSWSIsIlBVVF9RVUVTVElPTk5BSVJFIiwiUFVUX1RBU0siLCJHRVRfUFJBQ1RJVElPTkVSREVUQUlMUyIsIkdFVF9DT01QT1NJVElPTiIsIkdFVF9RVUVTVElPTk5BSVJFIiwiUFVUX0xPQ0FUSU9OIiwiUE9TVF9TVFJVQ1RVUkVNQVAiLCJQT1NUX0FQUE9JTlRNRU5UIiwiUE9TVF9MSVNUIiwiUFVUX1BBVElFTlQiLCJQVVRfRU5DT1VOVEVSIiwiUFVUX0xJU1QiLCJQT1NUX0JJTkFSWSIsIkdFVF9HUk9VUCIsIlBPU1RfT1JHQU5JWkFUSU9OIiwiR0VUX0NPTkRJVElPTiIsIkdFVF9TVFJVQ1RVUkVNQVAiLCJQQVRDSF9DQVJFUExBTiIsIlBPU1RfVEFTSyIsIkdFVF9DQVJFVEVBTSIsIlBVVF9RVUVTVElPTk5BSVJFUkVTUE9OU0UiLCJHRVRfT1JHQU5JWkFUSU9OIiwiUE9TVF9DT05ESVRJT04iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbIm1hbmFnZS11c2VycyIsInZpZXctdXNlcnMiLCJxdWVyeS1ncm91cHMiLCJxdWVyeS11c2VycyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImVjNzhjYjY5LWYzOTAtNGNmYS04NjkzLWVkNWNhZjUyNGI4ZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwib3JnYW5pemF0aW9uIjoiMTAxNzMiLCJxdWVzdGlvbm5haXJlX3B1Ymxpc2hlciI6Im1jb3JlIiwiZmhpcl9jb3JlX2FwcF9pZCI6InRpbmdhdGhlLXNhYS1wcm9kIiwiZ3JvdXBzIjpbIlBPU1RfQ0FSRVRFQU0iLCJHRVRfUEFUSUVOVCIsIlBVVF9PQlNFUlZBVElPTiIsIlBPU1RfUkVMQVRFRFBFUlNPTiIsIkdFVF9BUFBPSU5UTUVOVCIsIkVESVRfS0VZQ0xPQUtfVVNFUlMiLCJQVVRfQ0FSRVRFQU0iLCJHRVRfQ0FSRVBMQU4iLCJQQVRDSF9UQVNLIiwiUEFUQ0hfT1JHQU5JWkFUSU9OIiwiUFVUX0JJTkFSWSIsIlBPU1RfQlVORExFIiwiUE9TVF9DT01QT1NJVElPTiIsInVtYV9hdXRob3JpemF0aW9uIiwiUE9TVF9RVUVTVElPTk5BSVJFIiwiUE9TVF9RVUVTVElPTk5BSVJFUkVTUE9OU0UiLCJQVVRfQlVORExFIiwiUE9TVF9FTkNPVU5URVIiLCJQVVRfQVBQT0lOVE1FTlQiLCJQVVRfUkVMQVRFRFBFUlNPTiIsIkdFVF9PQlNFUlZBVElPTiIsIlBPU1RfTE9DQVRJT04iLCJHRVRfUFJBQ1RJVElPTkVSUk9MRSIsIlBBVENIX0NBUkVURUFNIiwiR0VUX0xJU1QiLCJkZWZhdWx0LXJvbGVzLWNvcmUtbWFsYXdpLXByb2R1Y3Rpb24iLCJHRVRfUkVMQVRFRFBFUlNPTiIsIkdFVF9RVUVTVElPTk5BSVJFUkVTUE9OU0UiLCJQVVRfU1RSVUNUVVJFTUFQIiwiUFVUX09SR0FOSVpBVElPTiIsIlBVVF9DQVJFUExBTiIsIkdFVF9CVU5ETEUiLCJHRVRfRU5DT1VOVEVSIiwiR0VUX1BSQUNUSVRJT05FUi1ERVRBSUxTIiwiR0VUX0xPQ0FUSU9OIiwiR0VUX0JJTkFSWSIsIlBVVF9DT01QT1NJVElPTiIsIlBPU1RfR1JPVVAiLCJQT1NUX1BSQUNUSVRJT05FUlJPTEUiLCJQT1NUX1BBVElFTlQiLCJQVVRfUFJBQ1RJVElPTkVSUk9MRSIsIlBVVF9DT05ESVRJT04iLCJQT1NUX09CU0VSVkFUSU9OIiwiUE9TVF9DQVJFUExBTiIsIkdFVF9UQVNLIiwiVklFV19LRVlDTE9BS19VU0VSUyIsIlBMQU5TX0ZPUl9VU0VSIiwib2ZmbGluZV9hY2Nlc3MiLCJHRVRfUFJBQ1RJVElPTkVSIiwiUE9TVF9QUkFDVElUSU9ORVIiLCJQVVRfUFJBQ1RJVElPTkVSIiwiUEFUQ0hfQklOQVJZIiwiUFVUX1FVRVNUSU9OTkFJUkUiLCJQVVRfVEFTSyIsIkdFVF9QUkFDVElUSU9ORVJERVRBSUxTIiwiR0VUX0NPTVBPU0lUSU9OIiwiR0VUX1FVRVNUSU9OTkFJUkUiLCJQVVRfTE9DQVRJT04iLCJQT1NUX1NUUlVDVFVSRU1BUCIsIlBPU1RfQVBQT0lOVE1FTlQiLCJQT1NUX0xJU1QiLCJQVVRfUEFUSUVOVCIsIlBVVF9FTkNPVU5URVIiLCJQVVRfTElTVCIsIlBPU1RfQklOQVJZIiwiR0VUX0dST1VQIiwiUE9TVF9PUkdBTklaQVRJT04iLCJHRVRfQ09ORElUSU9OIiwiR0VUX1NUUlVDVFVSRU1BUCIsIlBBVENIX0NBUkVQTEFOIiwiUE9TVF9UQVNLIiwiR0VUX0NBUkVURUFNIiwiUFVUX1FVRVNUSU9OTkFJUkVSRVNQT05TRSIsIkdFVF9PUkdBTklaQVRJT04iLCJQT1NUX0NPTkRJVElPTiJdLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkZW1vIn0.UyFCAQb5BPf0rPMKHZo_ptbPRHY2Y318pszq3IMng9JjEB5QrwIofrhGS205ccP68Vofmi7vHXqIe__PXhplvVb-CNHzU7XqPzePUhu3nwNewixo4L_OaFjdMpmYKFzZBVxp51B85xWHIpE5MW8pfUTnu7YWOseb_W5aHnAo3QlsM3e2QAGn_aLi-N3XOtUaHPcrP2vuYwK1Z6Xu6iDW2pEAOz98Xd84k3DR7W9PWmY1SPr1GyDU6QO9A0rtfUaK-Kl2Y1q6r_5i6WSMyrCXVIrRb31Jq0HzJffLr7avI01jdEkOJFEwmUfCWb2RgmMEWv38csH8BTgacZG2Z1mkXw&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../dtree/mwcore-fhir-resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Upload Resouces (Dev)" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="com.sevenreup.fhir.cli.MainKt" />
+      <module name="FHIRCompiler.cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="upload &quot;U:\projects\organisations\dtree\mwcore-fhir-resources&quot; -r &quot;./&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../mwcore-fhir-resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Upload Resouces (Prod)" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="com.sevenreup.fhir.cli.MainKt" />
+      <module name="FHIRCompiler.cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="upload &quot;C:\Users\chris\projects\dtree\mwcore-fhir-resources&quot; -r &quot;./&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../dtree/mwcore-fhir-resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Gradle.Fhir_Kotlin:core [dependencies]" />
-      <item itemvalue="Gradle.Fhir_Kotlin:core [dependencyInsight]" />
       <item itemvalue="Gradle.AliasesTests.replaceAliasesTestRelative" />
       <item itemvalue="Gradle.Fhir_Kotlin:cli [shadowJar]" />
+      <item itemvalue="Gradle.Fhir_Kotlin:core [dependencies]" />
+      <item itemvalue="Gradle.Fhir_Kotlin:core [dependencyInsight]" />
       <item itemvalue="Gradle.Fhir_Kotlin:server [shadowJar]" />
-      <item itemvalue="Kotlin.Cli" />
+      <item itemvalue="Kotlin.Fix CarePlan" />
+      <item itemvalue="Kotlin.LocalChanges Uploader" />
+      <item itemvalue="Kotlin.Location Builder" />
       <item itemvalue="Kotlin.Server" />
+      <item itemvalue="Kotlin.Upload Configs (Prod)" />
+      <item itemvalue="Kotlin.Upload Resouces (Dev)" />
+      <item itemvalue="Kotlin.Upload Resouces (Prod)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Fhir_Kotlin:core [dependencies]" />
-        <item itemvalue="Gradle.Fhir_Kotlin:core [dependencyInsight]" />
         <item itemvalue="Gradle.Fhir_Kotlin:cli [shadowJar]" />
         <item itemvalue="Gradle.Fhir_Kotlin:server [shadowJar]" />
+        <item itemvalue="Gradle.Fhir_Kotlin:core [dependencies]" />
+        <item itemvalue="Gradle.Fhir_Kotlin:core [dependencyInsight]" />
         <item itemvalue="Gradle.AliasesTests.replaceAliasesTestRelative" />
       </list>
     </recent_temporary>
@@ -419,9 +453,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/core/src/main/kotlin/com/sevenreup/fhir/core/uploader/ConfigUploader.kt</url>
-          <line>75</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/fhir/src/main/java/com/google/android/fhir/sync/upload/patch/PerResourcePatchGenerator.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <condition expression="rule.getName() == &quot;r_appointment_id&quot;" language="JAVA" />
@@ -444,6 +478,11 @@
           <url>jar://$PROJECT_DIR$/../../../../../../../Program Files/Java/jdk-19/lib/src.zip!/java.base/java/lang/reflect/AccessibleObject.java</url>
           <line>386</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ca.uhn.hapi.fhir/org.hl7.fhir.r4/6.0.22/4f31651221d050663aab26042f1b068ad4942269/org.hl7.fhir.r4-6.0.22-sources.jar!/org/hl7/fhir/r4/model/Period.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.RuntimeException" package="java.lang" />
